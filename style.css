@@ -1,0 +1,26 @@
+#content {
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: #c7eeff;
+}
+
+#press {
+  margin: auto;
+  width: 25%;
+}
+
+#clap {
+  opacity: 0%;
+}
+
+.clapped {
+  animation-name: doSound;
+  animation-duration: 0.5s;
+
+}
+
+@keyframes doSound {
+  from {opacity: 100%;}
+  to {opacity: 0%;}
+}
